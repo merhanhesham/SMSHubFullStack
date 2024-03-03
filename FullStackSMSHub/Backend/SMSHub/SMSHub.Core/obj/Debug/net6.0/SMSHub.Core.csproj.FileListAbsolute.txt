@@ -1,0 +1,12 @@
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\bin\Debug\net6.0\SMSHub.Core.deps.json
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\bin\Debug\net6.0\SMSHub.Core.dll
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\bin\Debug\net6.0\SMSHub.Core.pdb
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\SMSHub.Core.csproj.AssemblyReference.cache
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\SMSHub.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\SMSHub.Core.AssemblyInfoInputs.cache
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\SMSHub.Core.AssemblyInfo.cs
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\SMSHub.Core.csproj.CoreCompileInputs.cache
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\SMSHub.Core.dll
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\refint\SMSHub.Core.dll
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\SMSHub.Core.pdb
+C:\Users\SOUQ ALCOMPUMARTS\source\Route\SMSHub\SMSHub.Core\obj\Debug\net6.0\ref\SMSHub.Core.dll
