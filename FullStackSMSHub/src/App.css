@@ -1,0 +1,292 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #555; /* Darker font color for better contrast */
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #f8f9fa; /* Slight highlight on hover */
+  color:   hsla(341, 94%, 49%, 1);
+}
+
+.navbar-brand {
+  font-weight: bold; /* Make the brand name stand out */
+  padding-left: 15px;
+  color: #F99C8A;
+}
+
+/* Custom styles for right-aligned links */
+.navbar-nav > li {
+  padding-left: 15px; /* Spacing between menu items */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-radius: 5px; /* Rounded corners for links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+
+
+
+
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 150px); /* Adjust 60px to your footer's actual height */
+  /* Other styles remain unchanged */
+  
+}
+
+.register-container h2 {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 600px; /* Increase the width of the form */
+  max-width: 90%; /* Limit the width to 90% of the viewport width */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f8f9fa;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  background: hsla(341, 94%, 49%, 1);
+  background: linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f40752", endColorstr="#f9ab8f", GradientType=1);
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.error-message {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Use the full height of the viewport */
+ 
+}
+
+.login-container h2{
+  color: black;
+  text-align: center;
+  margin-bottom: 30px ;
+  font-weight: bold;
+}
+
+h5{
+color: black;
+text-align: center;
+
+
+}
+h5 span{
+  font-weight: bold;
+
+}
+
+.footer-container {
+  padding: 20px 0;
+  background-color: #2C3E50; /* Dark shade for professional look */
+  color: #FFFFFF; /* White text for contrast */
+  border-top: 2px solid hsla(341, 94%, 49%, 1); /* Accent color border at the top */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 0;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.footer-content a {
+  color: hsla(341, 94%, 49%, 1); /* Accent color for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: hsla(341, 94%, 49%, 1); /* Lighter shade for hover effect */
+}
+
+body {
+  padding-bottom: 60px; /* Equal to the footer's height */
+}
+@media (max-width: 768px) {
+  .register-container {
+    height: calc(100vh - 50px); /* Adjust for smaller viewport */
+  }
+  
+  body {
+    padding-bottom: 50px; /* Adjust to match adjusted footer height */
+  }
+}
+
+.form-group .role{
+  margin-right: 20px;
+}
+
+.allrole{
+  margin-bottom: 30px;
+}
+/*home*/
+.home {
+  font-family: 'Arial', sans-serif;
+  
+}
+/* Home.css - Adjusting the existing styles or adding these */
+
+
+
+.hero-section {
+  background: linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+ 
+}
+
+.btn-get-started {
+  background: white;
+  color: hsla(341, 94%, 49%, 1);
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.btn-get-started:hover {
+  background: hsla(16, 90%, 77%, 1);
+  color: white;
+}
+
+.features-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.feature-item {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.feature-item i {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 80px 10px;
+  }
+}
+
